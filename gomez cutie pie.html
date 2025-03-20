@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mental Health</title>
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- External stylesheet -->
+    <style>
+        /* General body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f0f8;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        /* Header styling */
+        h1 {
+            text-align: center;
+            color: #6a1b9a;  /* Purple color */
+        }
+
+        /* Speech content styling */
+        .speech-content {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #ec96c8;  /* Black text */
+        }
+
+        /* Interactive section styling */
+        .interactive-section {
+            background-color
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #4a148c;  /* Purple text */
+            text-align: center;
+        }
+
+        /* Form container styling */
+        .feedback-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px auto;
+            color: #4a148c;  /* Purple text */
+        }
+
+        /* Form input fields */
+        .form-field {
+            width: 100%;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        /* Submit button styling */
+        .submit-button {
+            background-color: #eff30a;  /* Yellow color */
+             color: white;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-button:hover {
+            background-color: #fbc02d;  /* Darker yellow */
+        }
+
+        /* Label styling */
+        label {
+            font-weight: bold;
+            color: #6a1b9a;  /* Purple color */
+        }
+
+        /* Feedback form section */
+        .feedback-message {
+            font-size: 1.1em;
+            color: #6a1b9a;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mental Health Awareness</h1>
+
+    <div class="speech-content">
+        <p>There are moments when even getting out of bed feels like a victory. But despite those moments of doubt and fear, I am still here, and that means something. I’ve learned to find joy in the little things, to appreciate small victories, and to keep moving forward, no matter how small the steps.</p>
+    </div>
+
+    <div class="interactive-section">
+        <p>Mental health struggles don’t make us weak; they make us human. It’s okay to feel lost, to struggle, and to ask for help. What matters is that we keep going, one step at a time, because every step forward is a triumph.</p>
+    </div>
+
+    <!-- Feedback Form Section -->
+    <div class="feedback-form">
+        <h2>Thank you 4 ur feedback <3</h2>
+        <form action="#" method="POST">
+            <!-- Name field -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="form-field" required>
+            </div>
+
+            <!-- Email field -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-field" required>
+            </div>
+
+            <!-- Comment field -->
+            <div>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" class="form-field" rows="5" required></textarea>
+            </div>
+
+            <!-- Submit button -->
+            <div>
+                <button type="submit" class="submit-button">Submit Feedback</button>
+            </div>
+        </form>
+
+        <!-- Thank you message (optional) -->
+        <div class="feedback-message" id="thank-you-message" style="display:none;">
+            <p>Thank you for sharing your thoughts with us!</p>
+        </div>
+    </div>
+
+</body>
+</html>
